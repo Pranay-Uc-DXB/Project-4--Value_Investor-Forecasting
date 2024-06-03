@@ -1,8 +1,7 @@
 ## Background:
 
 
-A portfolio investment company and makes investments in emerging markets around the world. The company profits by investing in profitable companies, buying, holding and selling company stocks based on value investing principles.
-Their goal is to establish a robust intelligent system to aid their value investing efforts using stock market data. They make investment decisions based on intrinsic value of companies and do not trade on the basis of daily market volatility. Commpany's profit realization strategy typically involves weekly, monthly and quarterly performance of stocks we buy or hold.
+A portfolio investment company makes investments in emerging markets around the world. Their goal is to establish a robust intelligent system to aid their value investing efforts using stock market data. They make investment decisions based on intrinsic value of companies and do not trade on the basis of daily market volatility.
 
 
 ## Data Description:
