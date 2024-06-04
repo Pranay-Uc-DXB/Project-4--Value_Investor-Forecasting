@@ -25,4 +25,4 @@ SMA, EMA, & ARIMA were used to establish baseline model for our more sophisticat
 
 ## Conclusion:
 
-My focus algorithm for this project was LSTM v/s Prophet. My analysis suggested that LSTM was a better predictor 
+My focus algorithm for this project was LSTM v/s Prophet. My analysis showed LSTM was a much better predictor 
