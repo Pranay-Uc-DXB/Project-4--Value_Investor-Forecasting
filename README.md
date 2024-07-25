@@ -19,6 +19,10 @@ In this project, I used several algorithms to forecast, evaluate, & recommend bu
 3) LSTM
 4) Facebook Prophet
 
+<img width="592" alt="image" src="https://github.com/user-attachments/assets/29a80d20-15d9-4ec2-826c-043873fbe77e">
+
+
+
 SMA, & EMA were used to establish baseline model for our more sophisticated algorithms such as LSTM and Prophet. For evaluation, Mean absolute percentage error (MAPE), equity curve, & backtesting strategy were used to used to assess our forecast accuracy where a good generalized model would return a lower MAPE and a high equity percentage. 
 
 For my backtesting strategy, I made a one-time investment of 100,000 and measured its final return in terms of absolute value that is earnings and return on investment. It is to be noted that Bollinger Band strategy is one of the many strategies. There are many sophisticated strategies that enable higher frequency trading better suited for minimizing risks and optimizing profit. Given the size of the actual dataset (2 years worth data), I opted for a simpler trading strategy.
