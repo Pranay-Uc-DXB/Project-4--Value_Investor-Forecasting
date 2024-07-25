@@ -19,11 +19,8 @@ In this project, I used several algorithms to forecast, evaluate, & recommend bu
 3) LSTM
 4) Facebook Prophet
 
-<img width="597" alt="image" src="https://github.com/user-attachments/assets/2b5ded6d-2bae-421c-8595-12b87f7a3c15">
-<img width="597" alt="image" src="https://github.com/user-attachments/assets/af622695-5165-407b-babc-a5ac95b84397">
-
-
-
+<img width="897" alt="image" src="https://github.com/user-attachments/assets/2b5ded6d-2bae-421c-8595-12b87f7a3c15">
+<img width="896" alt="image" src="https://github.com/user-attachments/assets/45bce9dd-664f-48fa-a0b8-05277c667cfd">
 
 
 SMA, & EMA were used to establish baseline model for our more sophisticated algorithms such as LSTM and Prophet. For evaluation, Mean absolute percentage error (MAPE), equity curve, & backtesting strategy were used to used to assess our forecast accuracy where a good generalized model would return a lower MAPE and a high equity percentage. 
