@@ -29,11 +29,13 @@ For my backtesting strategy, I made a one-time investment of 100,000 and measure
 
 The goal here was to evaluate forecasting methods such as LSTM v/s Prohphet and use backtesting strategy as a litmus test to evaluate forecasting performance. MAPE was used to measure the accuracy of the models with respect to actual prices. 
 
-When considering a foercasting model, an ideal model should have lower MAPE and higher ROI. lower MAPE results, higher trade frequencies/ROI are evident when using LSTM compared to Prophet.
+When considering a foercasting model, an ideal model should have lower MAPE and higher ROI. 
+
+<img width="890" alt="image" src="https://github.com/user-attachments/assets/1cdd4e37-525e-4e38-963e-a611eafe644c">
 
 
 ## Conclusion:
 
-My focus algorithm for this project was LSTM v/s Prophet. My analysis showed LSTM was a much better predictor compared to the black box-Prophet model. 3 metrics were used to evaluate forecasting using trading strategy namely MAPE, equity curve, & bollinger band strategy. 
+My focus algorithm for this project was LSTM v/s Prophet. My analysis showed LSTM was a much better predictor compared to the black box-Prophet model. 3 metrics were used to evaluate forecasting using trading strategy namely MAPE, equity curve, & bollinger band strategy. Lower MAPE results, higher trade frequencies/ROI are evident when using LSTM compared to Prophet.
 
 
