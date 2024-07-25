@@ -19,7 +19,10 @@ In this project, I used several algorithms to forecast, evaluate, & recommend bu
 3) LSTM
 4) Facebook Prophet
 
-<img width="892" alt="image" src="https://github.com/user-attachments/assets/29a80d20-15d9-4ec2-826c-043873fbe77e">
+<img width="597" alt="image" src="https://github.com/user-attachments/assets/2b5ded6d-2bae-421c-8595-12b87f7a3c15">
+<img width="597" alt="image" src="https://github.com/user-attachments/assets/af622695-5165-407b-babc-a5ac95b84397">
+
+
 
 
 
