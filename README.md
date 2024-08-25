@@ -23,19 +23,32 @@ In this project, I used several algorithms to forecast, evaluate, & recommend bu
 <img width="896" alt="image" src="https://github.com/user-attachments/assets/45bce9dd-664f-48fa-a0b8-05277c667cfd">
 
 
-SMA, & EMA were used to establish baseline model for our more sophisticated algorithms such as LSTM and Prophet. For evaluation, Mean absolute percentage error (MAPE), equity curve, & backtesting strategy were used to used to assess our forecast accuracy where a good generalized model would return a lower MAPE and a high equity percentage. 
+SMA, & EMA were used to establish baseline model for our more sophisticated algorithms such as LSTM and Prophet. For evaluation, Mean absolute percentage error (MAPE), equity curve, & backtesting strategy were used to assess our forecast accuracy where a good generalized model would return a lower MAPE and a high ROI percentage. 
 
-For my backtesting strategy, I made a one-time investment of 100,000 and measured its final return in terms of absolute value that is earnings and return on investment. It is to be noted that Bollinger Band strategy is one of the many strategies. There are many sophisticated strategies that enable higher frequency trading better suited for minimizing risks and optimizing profit. Given the size of the actual dataset (2 years worth data), I opted for a simpler trading strategy.
+For my backtesting strategy, I made a one-time investment of 100,000 and measured its final return in terms of absolute value that is earnings and return on investment. It is to be noted that Bollinger Band strategy is one of the many strategies. There are many sophisticated strategies that enable high-frequency trading better suited for minimizing risks and optimizing profit. Given the size of the actual dataset (2 years worth data), I opted for a simpler trading strategy.
 
 The goal here was to evaluate forecasting methods such as LSTM v/s Prohphet and use backtesting strategy as a litmus test to evaluate forecasting performance. MAPE was used to measure the accuracy of the models with respect to actual prices. 
-
-When considering a foercasting model, an ideal model should have lower MAPE and higher ROI. 
+ 
 
 <img width="890" alt="image" src="https://github.com/user-attachments/assets/1cdd4e37-525e-4e38-963e-a611eafe644c">
 
 
 ## Conclusion:
 
-My focus algorithm for this project was LSTM v/s Prophet. My analysis showed LSTM was a much better predictor compared to the black box-Prophet model. 3 metrics were used to evaluate forecasting using trading strategy namely MAPE, equity curve, & bollinger band strategy. Lower MAPE results, higher trade frequencies/ROI are evident when using LSTM compared to Prophet.
+My focus algorithms for this project was LSTM v/s Prophet. My analysis showed LSTM was a much better predictor than the black box-Prophet model. MAPE was used to evaluate forecasting results and earnings/ROI was used to determine Bollinger band strategy's success. Here an ideal forecast would correspond to results with lower MAPE and higher trade frequencies/ROI. Below is an example of 'koc_holdings' stock comparing the final results of the forecasts between LSTM and Prophet. 
+
+<img width="890" alt="image" src="https://github.com/user-attachments/assets/543a0502-4a02-4385-9626-e305d75c87f6">
+
+From above it is quite apparent that the Prophet forecasted poorly thus affecting backtesting's success of returning suitable earnings/ROI. On the other hand, LSTM forecasted well with its trading strategy's results depicted below:
+
+![image](https://github.com/user-attachments/assets/a8822139-38e5-4ed1-ad8d-956a53daff68)
+
+Our ROI for 'koc_holding' was -4.76% which is not that bad considering the sudden dip in tail prices that were not observed in the first or the second month of forecasting. From here one should also infer that using ROI as a measure for success is relative. ROI should be used as a metric for success only if:
+
+1) There is ample historical data to train on
+2) Deployed trading strategy is highly sound such that minimal loss occurs
+
+Thus due to the above reasons, I used MAPE as my main metric. There are many ways to develop robust trading strategies such as combining Bollinger band with RSI (Relative Strength Index), Using SMA to determine upper & lower bands instead of actual prices and many more but given our size of the dataset, a simple bollinger-band strategy was sufficient. 
+
 
 
