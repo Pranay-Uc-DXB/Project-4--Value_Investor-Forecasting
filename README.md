@@ -23,9 +23,14 @@ In this project, I used several algorithms to forecast, evaluate, & recommend bu
 <img width="896" alt="image" src="https://github.com/user-attachments/assets/45bce9dd-664f-48fa-a0b8-05277c667cfd">
 
 
-SMA, & EMA were used to establish baseline model for our more sophisticated algorithms such as LSTM and Prophet. For evaluation, Mean absolute percentage error (MAPE), equity curve, & backtesting strategy were used to assess our forecast accuracy where a good generalized model would return a lower MAPE and a high ROI percentage. 
+SMA, & EMA were used to establish baseline model for our more sophisticated algorithms such as LSTM and Prophet. For evaluation, Mean absolute percentage error (MAPE), & backtesting were used to assess our forecast accuracy where a good generalized model would return a lower MAPE and a high ROI percentage. 
 
-For my backtesting strategy, I made a one-time investment of 100,000 and measured its final return in terms of absolute value that is earnings and return on investment. It is to be noted that Bollinger Band strategy is one of the many strategies. There are many sophisticated strategies that enable high-frequency trading better suited for minimizing risks and optimizing profit. Given the size of the actual dataset (2 years worth data), I opted for a simpler trading strategy.
+There are numerous ways to develop trading strategies, but for my project, I used Bollinger-Band strategy to simulate buy/sell signals. The premise of how Bollinger-band strategy works is as follows:
+
+•	We buy when the closing price is under the lower Bollinger Band
+•	We sell when the price crosses above the upper Bollinger Band
+
+To evaluate or quantify the results of my strategy, I performed a backtesting where, I made a one-time investment of 100,000 and measured its final return in terms of absolute value that is earnings and return on investment. It is to be noted that Bollinger Band strategy is one of the many strategies. There are many sophisticated strategies that enable high-frequency trading better suited for minimizing risks and optimizing profit. Given the size of the actual dataset (2 years worth data), I opted for a simpler trading strategy.
 
 The goal here was to evaluate forecasting methods such as LSTM v/s Prohphet and use backtesting strategy as a litmus test to evaluate forecasting performance. MAPE was used to measure the accuracy of the models with respect to actual prices. 
  
